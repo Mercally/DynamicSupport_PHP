@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.social{
+
+	width:55px;
+	height: 120px;
+	padding-right:5px;
+	position:fixed;
+	background-color: rgba(84, 102, 255, 0.7);
+	right: 0px;
+	top:50%;
+}
+
+.social ul{
+	list-style:none;
+}
+
+.social ul li a{
+	display: block;
+	color: #000;
+	padding:10px 15px;
+	text-decoration:none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+}
+
+#twitter:hover{
+	background: #52B3F1;
+	color: #fff;
+}
+
+#facebook:hover{
+	background: #0C50AD;
+	color: #fff;
+}
+
+#youtube:hover{
+	background: #F7272A;
+	color: #fff;
+}
+
+.bienvenida{
+	line-height: 60px;
+	padding: 230px 0px 0px 10px;
+	font-weight: bolder;
+	font-size: 80px;
+	color: rgba(30,30,30, 0.8);
+	cursor: default;
+}
+
+
+.cuadro{
+	width: 100%; background-color: rgba(0, 0, 0, 0.1); border-radius: 10px; padding: 10px;
+}
+
+
+.cuadro-o{
+	width: 100%; background-color: rgba(0, 0, 0, 0.0); border-radius: 10px; padding: 10px;
+}
+
+
+.frm-servicio{
+	padding: 20px; background-color: rgba(108, 215, 44, 0.7); width: 100%;
+}
+
+
+@media screen and (min-width: 300px) {
+	.bienvenida{
+	line-height: 40px;
+	padding: 310px 0px 0px 10px;
+	font-weight: bolder;
+	font-size: 50px;
+	color: rgba(30,30,30, 0.8);
+	cursor: default;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.bienvenida{
+	line-height: 50px;
+	padding: 310px 0px 0px 10px;
+	font-weight: bolder;
+	font-size: 60px;
+	color: rgba(30,30,30, 0.8);
+	cursor: default;
+	}
+}
+
+
+@media (min-width: 991px) {
+	.bienvenida{
+	line-height: 60px;
+	padding: 410px 0px 0px 10px;
+	font-weight: bolder;
+	font-size: 80px;
+	color: rgba(30,30,30, 0.8);
+	cursor: default;
+	}
+}
